@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 body{
     font-family: 'Quicksand', sans-serif;
+    height: 100vh;
+    background-color: #BFACE0;
 }
 
 .main{
-    
-    height: 100vh;
-    background-color: #BFACE0;
     width: 100%;
     color: #645CAA;
     display: flex;
@@ -17,7 +16,21 @@ body{
 
 .buttonGroup
 {
-    margin-top: 150px;
+    margin-top: 90px;
+}
+
+.scary{
+    background: url("https://c.tenor.com/Hm9Pxru3YrEAAAAi/scary-creepy.sgif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
 }
 
 button{
@@ -35,6 +48,23 @@ button{
 .No-Button{
     right: 50%;
     background-color: #EE6983;
+}
+
+#img1
+{
+    position: absolute;
+    top: 0;
+    left: 13;
+    right: 0;
+    /* z-index: -1; */
+}
+#img1
+{
+    position: absolute;
+    top: 0;
+    left: 13;
+    right: 0;
+    /* z-index: -1; */
 }
 
 @media only screen and (max-width: 600px) {
